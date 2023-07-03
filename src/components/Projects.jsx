@@ -3,11 +3,18 @@ import { React } from "react";
 import ProjectItem from "./ProjectItem";
 import DaftPunkImg from "../assets/daftPunk.jpg";
 import MineShop from "../assets/MineShop.jpg";
-import IDeco from "../assets/ideco_1.jpg";
+import IDeco from "../assets/idecoNew.jpg";
 import UiTelecom from "../assets/UiTelecom.jpg";
-import Ui from "../assets/flexiAir.jpg";
+import Ui from "../assets/flexiAirNew.jpg";
+import Dashboard from "../assets/HomeDashboard.jpg";
 
 const data = [
+  {
+    title: "My Dashboard",
+    img: Dashboard,
+    language: "FIGMA",
+    lien: ["https://github.com/paulinecoudert/SymfonyDeco"],
+  },
   {
     title: "FLEXI AIR",
     img: Ui,
