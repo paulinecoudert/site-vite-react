@@ -2,7 +2,7 @@ import { React } from "react";
 
 import ProjectItem from "./ProjectItem";
 import DaftPunkImg from "../assets/daftPunk.jpg";
-import MineShop from "../assets/MineShop.jpg";
+import MineShop from "../assets/DetailProduct.jpg";
 import IDeco from "../assets/idecoNew.jpg";
 import UiTelecom from "../assets/UiTelecom.jpg";
 import Ui from "../assets/flexiAirNew.jpg";
@@ -13,37 +13,44 @@ const data = [
     title: "My Dashboard",
     img: Dashboard,
     language: "FIGMA",
-    lien: ["https://github.com/paulinecoudert/SymfonyDeco"],
+    lienGit: "",
+    lienUrl: ["https://github.com/paulinecoudert/SymfonyDeco"],
   },
   {
     title: "FLEXI AIR",
     img: Ui,
     language: "FIGMA  ",
-    lien: "https://www.figma.com/file/rAI0vtkW9p8UsPhGgETBJW?embed_host=share&kind=&node-id=26578%3A3219&t=3VGM2s4ZD96mONLm-1&type=design&viewer=1 ",
+    lienGit: "https://github.com/paulinecoudert/flexiAir",
+    lienUrl:
+      "https://www.figma.com/file/rAI0vtkW9p8UsPhGgETBJW?embed_host=share&kind=&node-id=26578%3A3219&t=3VGM2s4ZD96mONLm-1&type=design&viewer=1 ",
   },
   {
     title: "IDECO",
     img: IDeco,
     language: "PHP , Symphony, JS, Bootstrap ",
-    lien: ["https://github.com/paulinecoudert/SymfonyDeco"],
+    lienGit: ["https://github.com/paulinecoudert/SymfonyDeco"],
+    lienUrl: "https://www.youtube.com/watch?v=Qpn3-j9w9w8",
   },
   {
     title: "UI TELECOM",
     img: UiTelecom,
     language: "FIGMA, HTML, CSS",
-    lien: "https://paulinecoudert.github.io/uiTelecom/",
+    lienGit: "https://github.com/paulinecoudert/uiTelecom",
+    lienUrl: "https://paulinecoudert.github.io/uiTelecom/",
   },
   {
     title: "MINE SHOP",
     img: MineShop,
     language: "Vue.JS , Bootstrap, TypeScript, HTML",
-    lien: "https://github.com/paulinecoudert/mine-store",
+    lienGit: "https://github.com/paulinecoudert/vite-ms",
+    lienUrl: "https://paulinecoudert.github.io/vite-ms/",
   },
   {
     title: "MUSIC CREATOR",
     img: DaftPunkImg,
     language: "React, Javascript, CSS, HTML ",
-    lien: "https://paulinecoudert.github.io/daft_music/",
+    lienGit: "https://github.com/paulinecoudert/daft_music",
+    lienUrl: "https://paulinecoudert.github.io/daft_music/",
   },
 ];
 
@@ -60,10 +67,12 @@ const Projects = () => {
         jects.
       </h1>
       <p className="text-center pb-8 mx-8 text-stone-500">
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore,
-        dolores at consequatur beatae tenetur est velit adipisci, totam rerum
-        earum blanditiis ducimus hic perferendis magni quas, ea explicabo sed?
-        Minima!",
+        "View of my background as a designer and more recently as a front-end
+        developper, I'm the pilote for your projects involving UI/UX and
+        front-end development such as: HTML CSS JS and frameworks such as VUE.js
+        and React. Here's an overview of my work, my way is to continue to learn
+        and put my experience to work for the benefit of users, combining design
+        and technical skills.",
       </p>
       <div className="grid sm:grid-cols-2 xl:grid-cols-3 p-4 px-8 gap-6">
         {data.map((item, i) => (
@@ -72,8 +81,8 @@ const Projects = () => {
             title={item.title}
             img={item.img}
             language={item.language}
-            lien={item.lien}
-            email={item.email}
+            lienGit={item.lienGit}
+            lienUrl={item.lienUrl}
           />
         ))}
       </div>
