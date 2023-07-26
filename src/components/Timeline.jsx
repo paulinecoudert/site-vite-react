@@ -5,10 +5,10 @@ const data = [
   {
     year: "2023 - 2021",
     Building: "Heytens",
-    Location: "Wavre & Lille , Belgium & France",
+    Location: "Lezennes, Wavre & Hybrid , Belgium & France",
     title: "Web Developer",
     details:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, dolores at consequatur beatae tenetur est velit adipisci, totam rerum earum blanditiis ducimus hic perferendis magni quas, ea explicabo sed? Minima!",
+      "Participating in the design and architecture of web applications: Intranet (diary & dashboard), development of the Swiss website with a small team. Technology used: Laravel framework, Vue.js, DbVisualizer, Javascript, Blade template, Sass, HTML, Bootstrap, Github.",
   },
   {
     year: "July 2021 - May 2021",
@@ -59,7 +59,7 @@ const data = [
       "Responsible for technical design plan and furniture drawings, Modeling in 3D of interior architecture project, in the sector of law firms in Brussels.",
   },
   {
-    year: "2009 - 2010",
+    year: "2009 - 2007",
     Building: "Luc Vincent ",
     Location: "Brussels, Belgium",
     title: "Designer",
@@ -70,7 +70,10 @@ const data = [
 
 const Timeline = () => {
   return (
-    <div id="work" className="max-w-[1040px] m-auto sm:pr-8 md:pl-20 p-0 pb-16">
+    <div
+      id="work"
+      className="max-w-screen-2xl m-auto sm:pr-8 md:pl-20 p-0 pb-16"
+    >
       <h1 className=" border-t-2 border-dotted border-gray-400  left-13  animate-pulse mx-8 text-8xl font-bold text-left  text-indigo-500">
         Res
       </h1>

@@ -27,6 +27,7 @@ const ProjectItem = ({ img, title, language, lienGit, lienUrl }) => {
 
           <a
             href={lienUrl}
+            target="_blank"
             className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-2 p-4 cursor-pointer bg-gray-100  hover:bg-indigo-500 active:bg-indigo-500 hover:scale-110 ease-in duration-300 "
           >
             <BiLinkAlt size={20} />

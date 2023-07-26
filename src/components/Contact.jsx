@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="max-w-[1040px] m-auto sm:pr-8 md:pl-20 p-0 pb-16 text-stone-500"
+      className="max-w-screen-2xl m-auto sm:pr-8 md:pl-20 p-0 pb-16 text-stone-500"
     >
       <h1 className=" border-t-2 border-dotted border-gray-400  left-13  animate-pulse mx-8 text-8xl font-bold text-left  text-indigo-500">
         Get

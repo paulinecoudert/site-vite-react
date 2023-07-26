@@ -13,8 +13,10 @@ const data = [
     title: "My Dashboard",
     img: Dashboard,
     language: "FIGMA",
-    lienGit: "",
-    lienUrl: ["https://github.com/paulinecoudert/SymfonyDeco"],
+    lienGit: "https://github.com/paulinecoudert/dashboard-reviews",
+    lienUrl: [
+      "https://www.figma.com/file/x5XF5IJhOJKfX9TC9JfTem/MY-Dashboard-reviews?type=design&node-id=80%3A1866&mode=design&t=PK0wV19mZwCp1GZd-1",
+    ],
   },
   {
     title: "FLEXI AIR",
@@ -58,7 +60,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="max-w-[1040px] m-auto sm:pr-8 md:pl-20 p-0 pb-16"
+      className="max-w-screen-2xl m-auto sm:pr-8 md:pl-20 p-0 pb-16"
     >
       <h1 className=" border-t-2 border-dotted border-gray-400  left-13  animate-pulse mx-8 text-8xl font-bold text-left  text-indigo-500">
         Pro
@@ -74,7 +76,7 @@ const Projects = () => {
         and put my experience to work for the benefit of users, combining design
         and technical skills.",
       </p>
-      <div className="grid sm:grid-cols-2 xl:grid-cols-3 p-4 px-8 gap-6">
+      <div className="grid sm:grid-cols-2 xl:grid-cols-3 p-4 px-8 gap-10">
         {data.map((item, i) => (
           <ProjectItem
             key={i}
