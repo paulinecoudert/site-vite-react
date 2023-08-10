@@ -12,16 +12,20 @@ const Main = () => {
         src="./src/assets/shape.jpg"
         alt="/"
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/50 md:px-20  p-8 py-16">
-        <div className="max-w-[700px] m-auto mt-10 h-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-5xl text-4xl font-bold text-[#234665] ">
-            I'm a front-End developer based in Brussels with skills for UI/UX
-            design
+      <div className=" w-full h-screen absolute top-0 left-0 bg-white/50 md:px-20  p-8 py-16">
+        <div className=" max-w-[700px] md:mx-8 lg:m-auto mt-10 h-full flex flex-col justify-evenly lg:items-start items-center">
+          <h1 className="pb-10 sm:text-2xl lg:text-3xl text-indigo-500  ">
+            . Pauline Coudert .
           </h1>
+
+          <h1 className="sm:text-5xl text-4xl font-bold text-[#234665] ">
+            I'm a Creative Front-End Developer with skills in UI/UX design.
+          </h1>
+
           <h2 className="flex sm:text-3xl text-2xl  pt-12 text-indigo-500  ">
             <TypeAnimation
               sequence={[
-                " I use my background in design to create in the code meaningful experiences ", // Types 'One'
+                "I have a background in design which I use meaningfull experiences within the code. ", // Types 'One'
                 2000, // Waits 2s
               ]}
               wrapper="span"

@@ -16,7 +16,7 @@ const data = [
     Location: "Brussels, Belgium",
     title: "Developer (Internship)",
     details:
-      " In charge of Projects gaming in order to increase customer sales through promotional games.Development of registration form  and game integration according to models (VueJS, NodeJS, Javascript, Canvas). Bug fixes on platforms. Development of new games in JavaScript, Canvas. ",
+      " In charge of Projects gaming in order to increase customer sales through promotional games. Development of registration form  and game integration according to models (VueJS, NodeJS, Javascript, Canvas). Bug fixes on platforms. Development of new games in JavaScript, Canvas. ",
   },
   {
     year: "Nov. 3 days - 2020",

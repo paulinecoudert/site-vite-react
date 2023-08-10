@@ -21,8 +21,8 @@ const Skills = () => {
             <img class="rounded w-6 h-6" src={Design} /> Designer
           </h1>
           <p className=" text-sm text-stone-600">
-            Create content ,attractive design, interactions and clean design,
-            thing i enjoy to do with in UX, UI, Web, Apps, Logos.
+            I create clean and aesthetic design with a positive customer
+            experience.<br></br>I enjoy working with UX, UI, Web, Apps, Logos.
           </p>
 
           <ul className=" pt-6 text-sm text-stone-600">
@@ -31,7 +31,7 @@ const Skills = () => {
             <li className="py-1">Illustrator </li>
             <li className="py-1">Font Awesome</li>
           </ul>
-          <h3 className="text-sm pt-8 pb-4">And I Know More tools ...</h3>
+          <h3 className="text-sm pt-8 pb-4">Others options include: </h3>
           <ul className="text-sm text-stone-600">
             <li>Rhino 3D, Autocad, 3ds Max Keyshot.</li>
           </ul>
@@ -42,8 +42,7 @@ const Skills = () => {
             <img className="rounded w-6 h-6" src={Code} /> Front-End
           </h1>
           <p className=" text-sm text-stone-600">
-            I develop application, website using Javascript, VueJS, React, Html,
-            CSS, Bootsrap, Tailwind.
+            I develop applications and websites using the following tools:
           </p>
 
           <ul className=" py-6 text-sm text-stone-600">
@@ -62,8 +61,8 @@ const Skills = () => {
             <img className="rounded w-6 h-6" src={Gears} /> More ...
           </h1>
           <p className=" text-sm text-stone-600">
-            I could help for the development of application with a team backend
-            developer for different projects web & mobile.
+            I can offer support for the development of application for different
+            projects web & mobile.
           </p>
 
           <ul className=" py-6  text-sm text-stone-600">

@@ -69,12 +69,12 @@ const Projects = () => {
         jects.
       </h1>
       <p className="text-center pb-8 mx-8 text-stone-500">
-        "View of my background as a designer and more recently as a front-end
-        developper, I'm the pilote for your projects involving UI/UX and
-        front-end development such as: HTML CSS JS and frameworks such as VUE.js
-        and React. Here's an overview of my work, my way is to continue to learn
-        and put my experience to work for the benefit of users, combining design
-        and technical skills.",
+        "Considering my background as a designer and front-end developer, I'm
+        the ideal person for your projects involving UI/UX and front-end
+        development: HTML, CSS, JS and frameworks like VUE.js and React. Here's
+        an overview of my work. My plan is to continue to learn and put my
+        experience at the service of users, combining design and technical
+        skills.",
       </p>
       <div className="grid sm:grid-cols-2 xl:grid-cols-3 p-4 px-8 gap-10">
         {data.map((item, i) => (

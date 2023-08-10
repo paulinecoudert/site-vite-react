@@ -75,32 +75,32 @@ const Sidenav = () => {
             <a
               href="#main"
               id="top"
-              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-2 p-4 cursor-pointer bg-gray-100  hover:bg-[#f7d4d4] active:bg-[#f7d4d4] hover:scale-110 ease-in duration-300 "
+              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-3 p-4 cursor-pointer bg-gray-100  hover:bg-[#f7d4d4] active:bg-[#f7d4d4] hover:scale-110 ease-in duration-300 "
             >
               <AiOutlineHome size={20} />
             </a>
             <a
               href="#skills"
-              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-2 p-4 cursor-pointer  bg-gray-100  hover:bg-[#D3C3E9] active:bg-[#D3C3E9] hover:scale-110 ease-in duration-300  "
+              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-3 p-4 cursor-pointer  bg-gray-100  hover:bg-[#D3C3E9] active:bg-[#D3C3E9] hover:scale-110 ease-in duration-300  "
             >
               <BsCodeSlash size={20} />
             </a>
             <a
               href="#projects"
-              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-2 p-4 cursor-pointer bg-gray-100  hover:bg-[#B5ACDE] active:bg-[#B5ACDE] hover:scale-110 ease-in duration-300 "
+              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-3 p-4 cursor-pointer bg-gray-100  hover:bg-[#B5ACDE] active:bg-[#B5ACDE] hover:scale-110 ease-in duration-300 "
             >
               <AiOutlineProject size={20} />
             </a>
             <a
               href="#work"
               id="top"
-              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-2 p-4 cursor-pointer hover: bg-gray-100  hover:bg-[#9595D3] active:bg-[#9595D3]  hover:scale-110 ease-in duration-300 "
+              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-3 p-4 cursor-pointer hover: bg-gray-100  hover:bg-[#9595D3] active:bg-[#9595D3]  hover:scale-110 ease-in duration-300 "
             >
               <BsPerson size={20} />
             </a>
             <a
               href="#contact"
-              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-2 p-4 cursor-pointer hover: bg-gray-100  hover:bg-[#6B76C4] active:bg-[#6B76C4] hover:scale-110 ease-in duration-300 "
+              className="buttonNav rounded-full shadow-lg bg-gray-100  shadow-gray-400 m-3 p-4 cursor-pointer hover: bg-gray-100  hover:bg-[#6B76C4] active:bg-[#6B76C4] hover:scale-110 ease-in duration-300 "
             >
               <AiOutlineMail size={20} />
             </a>
