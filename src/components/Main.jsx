@@ -6,17 +6,22 @@ import { AiFillGithub } from "react-icons/ai";
 
 const Main = () => {
   return (
-    <div id="main">
+    <div id="main" className="">
       <img
-        className="w-full opacity-50 h-screen object-cover object-left scale-x-[-1]"
+        className=" w-full opacity-50 h-screen object-cover object-left scale-x-[-1]"
         src="./src/assets/shape.jpg"
         alt="/"
       />
       <div className=" w-full h-screen absolute top-0 left-0 bg-white/50 md:px-20  p-8 py-16">
-        <div className=" max-w-[700px] md:mx-8 lg:m-auto mt-10 h-full flex flex-col justify-evenly lg:items-start items-center">
-          <h1 className="pb-10 sm:text-2xl lg:text-3xl text-indigo-500  ">
-            . Pauline Coudert .
-          </h1>
+        <div className=" max-w-[700px] md:mx-8 lg:m-auto mt-10 h-full flex flex-col justify-evenly lg:items-start items-start">
+          <div>
+            <h1 className="  left-13 animate-pulse text-4xl font-bold text-left  text-indigo-500">
+              Pauline
+            </h1>
+            <h1 className="z-10 left-15 mb-5  mx-16 pb-4 animate-pulse text-4xl font-bold text-left text-indigo-500 ">
+              Coudert
+            </h1>
+          </div>
 
           <h1 className="sm:text-5xl text-4xl font-bold text-[#234665] ">
             I'm a Creative Front-End Developer with skills in UI/UX design.
