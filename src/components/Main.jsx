@@ -13,7 +13,7 @@ const Main = () => {
         alt="/"
       />
       <div className=" w-full h-screen absolute top-0 left-0 bg-white/50 md:px-20  p-8 py-16">
-        <div className=" max-w-[700px] md:mx-8 lg:m-auto mt-10 h-full flex flex-col justify-evenly lg:items-start items-start">
+        <div className=" max-w-[700px] md:mx-8 lg:m-auto mt-2 h-full flex flex-col justify-evenly lg:items-start items-start">
           <div>
             <h1 className="  left-13 animate-pulse text-4xl font-bold text-left  text-indigo-500">
               Pauline
